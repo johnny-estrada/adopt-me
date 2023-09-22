@@ -1,3 +1,11 @@
+// *********************************************
+// *********************************************
+// This is the old way of fetching data. Using
+// hooks, useState, useEffect, fetch API, 
+// and local cache.
+// *********************************************
+// *********************************************
+
 import { useState, useEffect } from "react";
 
 const localCache = {};
