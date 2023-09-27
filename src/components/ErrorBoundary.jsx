@@ -19,12 +19,12 @@ class ErrorBoundary extends Component {
             return (
                 <h2>
                     There was an error with this listing. <Link to="/">Click here</Link>{" "}
-                    to back to the home page.
+                    to go back to the home page.
                 </h2>
             )
         }
 
-        return this.props.ErrorBoundary;
+        return this.props.children;
     }
 }
 
